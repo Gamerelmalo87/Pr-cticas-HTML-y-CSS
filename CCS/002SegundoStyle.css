@@ -1,0 +1,77 @@
+
+body{
+    background: linear-gradient(90deg, rgba(196,89,75,1) 0%, rgba(240,185,107,1) 50%, rgba(253,245,126,1) 100%);
+    display: flex-box;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#titulo{
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(235,220,240,0.4);
+}
+h1{
+    font-size: 50px;
+    border: 1px solid rgb(0,0,0);
+    border-style: dashed;
+}
+
+#glass{
+    background-color: rgba(234, 240, 240, 0.435);
+    width: 90%;
+    height: 90vh;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor{
+    background-color: rgb(255, 255, 255);
+    max-width: 350px;
+    min-width: 200px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgb(78, 78, 78);
+
+}
+
+img{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    max-width: 350px;
+    min-width: 200;
+    height: 350px;
+}
+audio{
+    display: block;
+    max-width: 350px;
+    min-width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#botones{
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(235,220,240,0.4);
+}
+
+#logosredes{
+   display: inline;
+   padding: 20px;
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

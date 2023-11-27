@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(25, 66, 101);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    max-width: 500px;
+    min-width: 350px;
+
+}
+form{
+    display: flex;
+    justify-content: right;
+}
+/* Boton de Descargas */
+.Descargas{
+    background-color: rgb(45, 132, 218);
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    border-style: none;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.Descargas:hover{
+    background-color: rgb(215, 213, 213);
+    color: black;
+    border:1px solid black;
+}
+/* Boton de Volver */
+.Volver{
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    border-color: rgb(215, 215, 215);
+    border: 1px solid rgb(215, 215, 215);
+    font-weight: bold;
+    font-size: 15px;   
+}
+.Volver:hover{
+    background-color: rgb(171, 171, 171);
+    color: white;
+}
+/* Bloque que contiente texto y Logo*/ 
+#bloque{
+    display: flex;
+}
+/*Bloque que contiene el h1 y h2*/
+#Texto{
+    display: inline-block;
+    margin-left: 10px;
+}
+/*Logo*/
+#LogoPayPal{
+    width: 100px;
+    position: relative;
+    margin: -20px -20px;
+}
+
+
+h1{
+    display: block;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin: 0;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+h2{
+    display: block;
+    position: relative;
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+/*Con este codigo podemos hacer que se ajuste con el tamaño de pantalla*/
+@media only screen and (max-width: 300px){
+    main{
+        background-color: white;
+        border-radius: 10px;
+        padding: 25px;
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        max-width: 500px;
+        min-width: 100px;
+    }
+
+    form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Descargas{
+        margin: 10px;
+        font-size: 10px;
+        height: 20px;
+    }
+    .Volver{
+        margin: 10px;
+        font-size: 10px;
+        height: 20px;
+    }
+    h1{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 8px;
+    }
+    #LogoPayPal{
+        width: 50px;
+        position: relative;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+}
