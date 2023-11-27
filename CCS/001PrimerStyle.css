@@ -17,7 +17,6 @@ main{
     transform: translate(-50%, 50%);
     max-width: 500px;
     min-width: 100px;
-
 }
 form{
     display: flex;
@@ -138,6 +137,7 @@ h2{
         height: 92vh;
         padding: 25px;
         width: 80%;
+        height: 110vh;
         position: absolute;
         left: 50%;
         transform: translate(-52%, 0%);
